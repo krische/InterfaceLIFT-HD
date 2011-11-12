@@ -1,0 +1,35 @@
+.search-box {
+    width: 75%;
+    margin: 10px auto 10px auto;
+}
+
+.enyo-input {
+    -webkit-border-image: url("../images/input.png") 14 14;
+    border-width: 14px;
+    border-style: solid;
+    color: #333;
+}
+
+.search-list {
+    background-color: rgba(200,200,200,0.25);
+    overflow: auto;
+    border-radius: 15px;
+    width: 96%;
+    margin: auto;
+}
+
+.search-item {
+    float: left;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #444;
+    border-right: 1px solid #999;
+    border-left: 1px solid #444;
+}
+
+.enyo-divider-left-cap {
+    margin-right: -1px;
+}
+
+input::-webkit-input-placeholder {
+    color: #555;
+}

@@ -1,0 +1,21 @@
+.startup-container {
+	background: rgba(30, 30, 30, 0.75);
+	border-radius: 15px;
+	width: 350px;
+	height: 150px;
+	margin: auto;
+	padding: 10px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+}
+
+.startup-item {
+	color: #CCC;
+	padding: 10px 15px 15px 15px;
+	background: rgba(80, 80, 80, 0.75);
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 10px;
+	-webkit-transition-property: opacity, top;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-webkit-transition-timing-function: ease-in-out, ease-in-out;
+}

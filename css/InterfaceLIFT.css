@@ -1,0 +1,132 @@
+body {
+	background: #444;
+}
+
+.enyo-header {
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(158,53,0)),
+	    color-stop(1, rgb(217,64,13))
+	);
+	background-color: transparent;
+	-webkit-border-image: none;
+	border-width: 0;
+	color: #EEE;
+	font-weight: 600;
+}
+
+.enyo-scrollfades-top {
+	background: url('../images/fade-top.png') top center repeat-x;
+}
+
+.enyo-scrollfades-bottom {
+	background: url('../images/fade-bottom.png') bottom center repeat-x;
+}
+
+.enyo-scrim {
+	background: #222;
+}
+
+.enyo-divider,
+.enyo-divider-right-cap,
+.enyo-divider-left-cap {
+	background: rgba(160,160,160, 0.7);
+	height: 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid #222;
+	border-right: 1px solid #222;
+	-webkit-border-image: none;
+}
+
+.enyo-divider-right-cap,
+.enyo-divider-left-cap {
+	margin-top: 16px;
+}
+
+.enyo-divider-caption {
+	color: rgb(160,160,160);
+	text-shadow: 1px 1px 1px #222;
+}
+
+.enyo-collapsible-arrow {
+	background: url(../images/divider-arrow.png) center -78px;
+}
+
+.enyo-button-down.enyo-collapsible-arrow {
+	background-position: center -118px;
+}
+
+.enyo-button-switched.enyo-collapsible-arrow {
+	background: url(../images/divider-arrow.png) center 1px;
+}
+
+.enyo-button-down.enyo-button-switched.enyo-collapsible-arrow {
+	background-position: center -39px;
+}
+
+.enyo-divider-icon {
+	margin-top: 5px;
+}
+
+.interfaceLIFT-menu-bg {
+	background-image: url('../images/menu-bg.png');
+}
+
+.menu-item {
+	border-top: none;
+	background-color: rgba(50,50,50,0.3);
+	color: #eee;
+}
+
+.menu-item.selected {
+	background-color: rgba(110,110,110,0.3);
+}
+
+.interfaceLIFT-bg {
+	background-image: url('../images/pane-bg.png');
+}
+
+.enyo-menuitem-caption {
+	padding-left: 32px;
+	padding-right: 8px;
+}
+
+.enyo-held {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(210,210,210,0.4)), to(rgba(170,170,170,0.4)));
+}
+
+.menuitem-checkmark {
+	background-image: url('../images/checkmark.png');
+	background-position: 5px;
+	background-repeat: no-repeat;
+}
+
+.preview-list-item {
+	width: 25%;
+	float: left;
+	border-top: none;
+	border-bottom: none;
+	/*border: 1px solid #000;*/
+}
+
+.preview-image {
+	margin-top: 5px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 6px #444;
+	box-shadow: 0px 0px 6px #444;
+	width: 95%;
+}
+
+.preview-title {
+	height: 1.2em;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	text-overflow: ellipsis;
+	font-weight: 600;
+	color: #999;
+	font-size: 0.8em;
+}

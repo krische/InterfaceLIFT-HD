@@ -1,0 +1,21 @@
+enyo.depends(
+    "css/Artists.css",
+    "css/InterfaceLIFT.css",
+    "css/WallpaperViewer.css",
+    "css/Search.css",
+    "css/Startup.css",
+    "css/Tags.css",
+    "css/WallpaperList.css",
+    "source/ArtistsList.js",
+    "source/ArtistViewer.js",
+    "source/MainMenuView.js",
+    "source/InterfaceLIFT.js",
+    "source/Search.js",
+    "source/Startup.js",
+    "source/TagsList.js",
+    "source/TagViewer.js",
+    "source/WallpaperListView.js",
+    "source/WallpaperViewer.js",
+    "source/Help.js",
+    "models/Database.js"
+);
