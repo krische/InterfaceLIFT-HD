@@ -1,0 +1,8 @@
+************************
+*      ABOUT           *
+************************
+This is a WebOS 3.0+ application designed to use the enyo framework and work on the HP TouchPad.
+
+The application pulls wallpapers from the www.interfacelift.com website and applies them to the HP TouchPad.
+
+More information on how to build/run WebOS applications can be found by going to http://developer.palm.com
